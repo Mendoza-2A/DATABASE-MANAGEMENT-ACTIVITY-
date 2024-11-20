@@ -1,0 +1,38 @@
+
+CREATE DATABASE ProductsDB;
+
+CREATE TABLE Products (
+    ProductID INT PRIMARY KEY AUTO_INCREMENT,
+    ProductName VARCHAR(50),
+    Price INT,
+    Stock INT,
+    ExpiredDate DATE
+);
+
+ Insert the data into the table
+INSERT INTO Products (ProductName, Price, Stock, ExpiredDate) VALUES
+('Lucky Me', 15, 3, '2026-10-01'),
+('Bingo', 17, 9, '2026-10-12'),
+('Yakult', 16, 10, '2026-10-13'),
+('Tide Bar', 25, 11, '2026-10-14'),
+('Tide powder', 30, 8, '2026-10-17'),
+('Safe Guard', 15, 17, '2026-10-22'),
+('Creamer', 35, 8, '2026-10-18'),
+('Ice Tea', 20, 12, '2026-10-17'),
+('Ice', 5, 2, '2026-10-15'),
+('C2 Ice Tea', 18, 4, '2026-10-18'),
+('Condense milk', 45, 13, '2026-10-19'),
+('Bear Brand', 47, 18, '2026-10-21'),
+('Cloud 9', 14, 19, '2026-10-12'),
+('Piattos', 16, 13, '2026-10-19'),
+('Biscuits', 8, 20, '2026-10-05'),
+('Glue', 19, 13, '2026-10-07'),
+('Bond Paper', 1, 2, '2026-10-09'),
+('Pencil', 16, 14, '2026-10-20'),
+('Ballpen', 18, 12, '2026-10-23'),
+('Sunsilk', 19, 10, '2026-10-24'),
+('Ice Candy', 16, 17, '2026-10-23'),
+('3 in 1', 15, 16, '2026-10-13'),
+('Hansel', 14, 13, '2026-10-17'),
+('Pepsi', 24, 19, '2026-10-12'),
+('Tang Orange', 20, 20, '2026-10-13');
